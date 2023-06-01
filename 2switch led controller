@@ -22,7 +22,7 @@ void loop()
     digitalWrite(led, LOW);
   }
   else{
-    Serial.println(a);
+    Serial.println(a);// serial print value b//
     Serial.println(b);
   }
  
