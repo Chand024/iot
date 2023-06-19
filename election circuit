@@ -12,7 +12,7 @@ int a,b;
 void setup()
 {
   pinMode(cL_1, OUTPUT);
-  pinMode(cand_1, INPUT);
+  pinMode(cand_1, INPUT);//input//
   pinMode(cL_2, OUTPUT);
   pinMode(cand_2, INPUT);
   Serial.begin(9600);
