@@ -3,7 +3,7 @@ int led_pin = 3;
 int buzzer_pin = 4;
 void setup()
 {
- pinMode(pir_pin, INPUT);
+ pinMode(pir_pin, INPUT);//input
  pinMode(led_pin, OUTPUT);
  pinMode(buzzer_pin, OUTPUT);
  Serial.begin(9600);
